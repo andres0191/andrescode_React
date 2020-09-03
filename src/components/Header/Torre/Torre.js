@@ -1,11 +1,16 @@
 import React from 'react';
 import '../../Header/style.scss';
-import {SocialMediaIconsReact} from 'social-media-icons-react';
+import { GiStoneTower } from "react-icons/gi";
+import { IconContext } from "react-icons";
 
 export default function Torre(){
     return(
-        <div>
-            <SocialMediaIconsReact margin='10px' borderColor="rgba(0,0,0,0.25)" borderWidth="5" borderStyle="inset" icon="tumblr" iconColor="rgba(188,188,188,1)" backgroundColor="rgba(0,0,0,1)" iconSize="5" roundness="39%" url="https://bio.torre.co/andresfelipegarciarendon" size="35" />
+        <div className='d-flex align-items-center' >
+            <IconContext.Provider value={{ color:"#bcbcbc", className: "global-class-name",  size:'1.5em'}} >
+                <div >
+                    <p className="float-right"><a href="https://bio.torre.co/andresfelipegarciarendon" style={{margin: 10}}><GiStoneTower /></a></p>
+                </div>
+            </IconContext.Provider>
         </div>
     )
 }

@@ -1,12 +1,16 @@
 import React from 'react';
 import '../../Header/style.scss';
-import {SocialMediaIconsReact} from 'social-media-icons-react';
+import { ImWhatsapp } from "react-icons/im";
+import { IconContext } from "react-icons";
 
 export default function Whatsapp(){
     return(
-        <div>
-            <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="5" /* borderStyle="inset" */ icon="mail" iconColor="rgba(188,188,188,1)" backgroundColor="rgba(0,0,0,1)" iconSize="7" roundness="39%" url="https://wa.me/573054214488" size="35" />
+        <div className='d-flex align-items-center' >
+            <IconContext.Provider value={{ color:"#bcbcbc", className: "global-class-name",  size:'1.5em'}} >
+                <div >
+                    <p className="float-right"><a href="https://wa.me/573054214488" style={{margin: 10}}><ImWhatsapp /></a></p>
+                </div>
+            </IconContext.Provider>
         </div>
     )
 }
-
