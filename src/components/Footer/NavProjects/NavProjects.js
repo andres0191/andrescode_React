@@ -1,11 +1,16 @@
 import React from 'react';
 import '../../Header/style.scss';
-import {SocialMediaIconsReact} from 'social-media-icons-react';
+import { BiCodeAlt } from "react-icons/bi";
+import { IconContext } from "react-icons";
 
 export default function Linkedin(){
     return(
-        <div>
-            <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="5" borderStyle="inset" icon="linkedin" iconColor="rgba(188,188,188,1)" backgroundColor="rgba(0,0,0,1)" iconSize="5" roundness="39%" target='' url="Projects" size="35" />
+        <div className='d-flex align-items-center'>
+            <IconContext.Provider value={{ color:"#bcbcbc", className: "global-class-name", size:'1em', size:'1.5em'}} >
+                <div>
+                    <p className="float-right"><a href="/Projects" style={{margin: 10}}><BiCodeAlt /></a></p>
+                </div>
+            </IconContext.Provider>
         </div>
     )
 }
