@@ -1,7 +1,6 @@
  
 .header{
     background-color: rgb(0, 0, 0);
-    color: #968d3d;
     position: fixed;
     
 }
@@ -16,21 +15,8 @@
 .space{
   margin: 5px;
   padding: 5px;
-
 }
 .space:hover{
-  border-radius: 50%;
-  -webkit-border-radius:50%;
-  box-shadow: 0px 0px 5px 5px #ec731e;
-  -webkit-box-shadow: 0px 0px 5px 5px #ec731e;
-}
-
-.spacecv{
-  margin: 5px;
-  padding: 5px;
-
-}
-.spacecv:hover{
   border-radius: 50%;
   -webkit-border-radius:50%;
   box-shadow: 0px 0px 5px 5px #ec731e;
