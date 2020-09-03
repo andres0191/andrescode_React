@@ -14,18 +14,18 @@ export default function About(){
     return(
         <div >
             <Header />
-                    <div className='firsttext'>
+                    <div>
                     <div style={{textAlign:'justify', padding:'15px', paddingBottom: '5rem' }}>
-                        <img class="imgAlbertE" src={AlbertE} alt="First slide"/>
+                        <img class="imgAlbertE  firsttext" src={AlbertE} alt="First slide"/>
                             <div className='text'>
                                 <h1>Albert Einstein </h1>
                                 <p>"Mira profundamente en la naturaleza y entonces comprenderas todo mejor"</p> 
                                 <p>"Si no lo puedes explicar de forma simple, no lo entiendes suficientemente bien".</p><br />
                             </div>
                     </div>
-                    <div style={{textAlign:'justify', padding:'15px', paddingBottom: '5rem' }}>
+                    <div style={{textAlign:'justify', padding:'20px', paddingBottom: '5rem' }} className='textHobbies'>
                         <img class="imgAndresCammera" src={AndresCammera} alt="First slide"/>
-                            <div className='textTecnologies'>
+                            <div className='textHobbies'>
                                 <h2>Hobbies</h2>
                                 <p>Me considero un afisionado del arte. Disftuto de escuchar cualquier genero musical a ecepcion de la champeta y uno que otro subgenero del reggaeton. Amante del Techno House, Classic Music (toco violin cuando necesito relajarme), Reggae y Glam Rock. Tomo fotografias de paisajes inimaginables y bellamente tranquilos. como mascotas tengo 2 kilos de lombrices, una gata angora, y al rededor de 10 peces de diferentes especies.</p><br />
                                 <div>
