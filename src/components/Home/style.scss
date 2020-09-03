@@ -1,4 +1,20 @@
 .fondo{
-    background-image: url('../../images/AndresCode.png');
     width: 100%;
 }
+.donwload{
+    background-color: black;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30%;
+    color: #BCBCBC;
+
+}
+  
+.download:hover{
+    border-radius: 50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 5px 5px #ec731e;
+    -webkit-box-shadow: 0px 0px 5px 5px #ec731e;
+    }
+
