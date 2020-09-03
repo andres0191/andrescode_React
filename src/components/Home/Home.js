@@ -12,7 +12,7 @@ export default function Home(){
                 <div>
                     <div >
                         <img class="fondo" src={Fondo} alt="First slide"/>
-                        <div style={{textAlign:'justify', padding:'15px'}}>
+                        <div style={{textAlign:'justify', padding:'15px', paddingBottom: '5rem' }}>
                             <img class="me" src={Me} alt="First slide"/>
                             <h1>Andres  Garcia </h1>
                             <p >Web Developer egresado de Holberton School. Con un año de experiencia en desarrollo de software logré dominar la complejidad del lenguaje de programación C, Python, Javascript y pude mejorar mis softskills para el trabajo en equipos multidiciplinarios.
