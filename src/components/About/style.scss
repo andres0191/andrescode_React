@@ -1,9 +1,47 @@
 .text{
-    margin: 5%;
+    margin: 2%;
+    text-align: left;
+    margin-top: 12%;
 }
 
 .firsttext{
-    
     margin-top: 5%;
     padding: 15px;
+}
+
+.imgAlbertE{
+    width: 20%;
+    height: 20%;
+    border-radius: 5%;
+    margin-right: 5%;
+    float: left;
+    margin-top: 5%;
+}
+.imgAndresCammera{
+    width: 25%;
+    border-radius: 5%;
+    float: right;
+    margin-top: -4%;
+}
+.textTecnologies{
+    margin: 2%;
+    text-align: left;
+    margin-top: -2%;
+}
+
+.imgBlog{
+    width: 25%;
+    border-radius: 5%;
+    margin-right: 3%;
+    float: left;
+    margin-top: -5%;
+}
+.textPublications{
+    margin: 2%;
+    margin-top: -3%;
+}
+.playlist{
+    float: left !important;
+    padding: 2%;
+
 }
