@@ -12,7 +12,7 @@ import Whatsapp from './Whatsapp/Whatsapp';
 export default function Header(){
     return(
         <div>
-            <div className='header dv'>
+            <div className='header dv '>
                 <li className='space'><Github /></li>
                 <li className='space'><Dev /></li>
                 <li className='space'><Linkedin /></li>

@@ -8,7 +8,7 @@ export default function Medium(){
         <div className='d-flex align-items-center' >
             <IconContext.Provider value={{ color:"#bcbcbc", className: "global-class-name",  size:'1.5em'}} >
                 <div >
-                    <p className="float-right"><a href="https://medium.com/@felipe.garcia0191" style={{margin: 10}}><FaMediumM /></a></p>
+                    <p className="float-right iconcenter"><a href="https://medium.com/@felipe.garcia0191" style={{margin: 10}}><FaMediumM /></a></p>
                 </div>
             </IconContext.Provider>
         </div>

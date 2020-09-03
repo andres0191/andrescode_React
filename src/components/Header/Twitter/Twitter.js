@@ -8,7 +8,7 @@ export default function Twitter(){
         <div className='d-flex align-items-center' >
             <IconContext.Provider value={{ color:"#bcbcbc", className: "global-class-name",  size:'1.5em'}} >
                 <div >
-                    <p className="float-right"><a href="https://twitter.com/andres0191" style={{margin: 10}}><FiTwitter /></a></p>
+                    <p className="float-right iconcenter"><a href="https://twitter.com/andres0191" style={{margin: 10}}><FiTwitter /></a></p>
                 </div>
             </IconContext.Provider>
         </div>
