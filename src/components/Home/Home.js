@@ -2,7 +2,7 @@ import React from 'react';
 import './style.scss';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
-import Fondo from '../../images/macbookpro_1920x1080.jpg'
+import Fondo from '../../images/AndresCode.png'
 
 export default function Home(){
     return(
