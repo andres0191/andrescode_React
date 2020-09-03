@@ -12,15 +12,15 @@ import Whatsapp from './Whatsapp/Whatsapp';
 export default function Header(){
     return(
         <div>
-            <ul className='header ul '>
-                <li><Github /></li>
-                <li><Dev /></li>
-                <li><Linkedin /></li>
-                <li><Medium /></li>
-                <li><Torre /></li>
-                <li><Twitter /></li>
-                <li><Whatsapp /></li>
-            </ul>
+            <div className='header s dv'>
+                <li className='space'><Github /></li>
+                <li className='space'><Dev /></li>
+                <li className='space'><Linkedin /></li>
+                <li className='space'><Medium /></li>
+                <li className='space'><Torre /></li>
+                <li className='space'><Twitter /></li>
+                <li className='space'><Whatsapp /></li>
+            </div>
         </div>
     )
 }

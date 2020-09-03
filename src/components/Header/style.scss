@@ -1,19 +1,19 @@
  
 .header{
-    background-color: #001020;
+    background-color: rgb(0, 0, 0);
     color: #968d3d;
-    -webkit-box-shadow: -2px 9px 6px -7px rgba(0,0,0,0.2);
-    -moz-box-shadow: -2px 9px 6px -7px rgba(0,0,0,0.2);
-    box-shadow: -2px 9px 6px -7px rgba(0,0,0,0.1);
+    position: fixed;
+    
 }
-.ul{
+.dv{
   display: flex;
   justify-content: center;
   list-style:none;
-  margin-top: -10px;
-  height: 100%;
+  margin-bottom : 0 !important;
+  position: fixed;
+  width: 100%;
 }
 .space{
-  margin: 5px;
-  padding: 5px;
+  margin: 10px;
+  padding: 10px;
 }
