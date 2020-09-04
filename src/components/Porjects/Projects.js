@@ -72,7 +72,7 @@ export default function Projects(){
                                 <div className='downloadcv' >
                             <IconContext.Provider value={{ color:"#595959", className: "global-class-name",  size:'1.5em'}} >
                                 <div >
-                                    <p className="float-right"> <a href="https://github.com/andres0191/ApadrinappV2" ><FaHandPointRight /> Repositorio Github</a></p>
+                                    <p className="float-right"> <a href="https://github.com/andres0191/ApadrinappV2" style={{margin: '10%', display: 'flex', width: '100%', padding: '20%',}}><FaHandPointRight /> Repositorio Github</a></p>
                                 </div>
                             </IconContext.Provider>
                             </div>   
