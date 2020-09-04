@@ -1,50 +1,191 @@
-.text{
-    margin: 2%;
-    text-align: left;
-    margin-top: 12%;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
-
-.firsttext{
-    margin-top: 5%;
-    padding: 15px;
+/* Albert Einstein */
+.contenedor{
+    width: 100%;
+    max-width: 1000px;
+    margin: 3%;
+    padding: 60px;
+    margin-top: 50px;
 }
-
-.imgAlbertE{
-    width: 20%;
-    height: 20%;
-    border-radius: 5%;
-    margin-right: 5%;
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: 100;
+}
+.sub-titulo{
+    font-size: 30px;
+    font-weight: 400;
+}
+.contenedor img{
+    width: 30%;
     float: left;
-    margin-top: 5%;
+    margin-right: 40px;
+    margin-bottom: 40px;
 }
-.imgAndresCammera{
-    width: 25%;
-    border-radius: 5%;
+.contenedor p{
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 70px;
+}
+@media only screen and (min-width: 320px) and (max-width: 768px){
+    .contenedor{
+        width: 100%;
+        padding: 21px;
+    }
+    .titulo{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .contenedor img{
+        margin-right: 0px;
+        width: 100%;
+    }
+}
+
+/* Hobbies */
+
+.contenedorHobbies{
+    width: 100%;
+    max-width: 1250px;
+    margin: auto;
+    padding: 60px;
+    margin-top: 50px;
+}
+.tituloHobbies{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: 100;
+}
+.sub-tituloHobbies{
+    font-size: 30px;
+    font-weight: 400;
+}
+.contenedorHobbies img{
+    width: 50%;
     float: right;
+    margin-left: 40px;
+    margin-bottom: 40px;
 }
-.textHobbies{
-    margin: 2%;
-    text-align: left;
+.contenedorHobbies p{
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 10px;
 }
-.textTecnologies{
-    margin: 2%;
-    text-align: left;
-    margin-top: -4%;
+@media only screen and (min-width: 320px) and (max-width: 768px){
+    .contenedorHobbies{
+        width: 100%;
+        padding: 21px;
+    }
+    .tituloHobbies{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .contenedorHobbies img{
+        margin-right: 0px;
+        width: 100%;
+    }
 }
-
-.imgBlog{
-    width: 25%;
-    border-radius: 5%;
-    margin-right: 3%;
-    float: left;
-    margin-top: -5%;
-}
-.textPublications{
-    margin: 2%;
-    margin-top: -3%;
-}
+/* music */
 .playlist{
-    float: left !important;
-    padding: 2%;
+    padding: 1%;
+}
 
+/* Tecnologias */
+
+.contenedorTec{
+    width: 100%;
+    max-width: 1250px;
+    margin: auto;
+    padding: 60px;
+    margin-top: 50px;
+}
+.tituloTec{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: 100;
+}
+.sub-tituloTec{
+    font-size: 30px;
+    font-weight: 400;
+}
+.contenedorTec img{
+    width: 50%;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+.contenedorTec p{
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+@media only screen and (min-width: 320px) and (max-width: 768px){
+    .contenedorTec{
+        width: 100%;
+        padding: 21px;
+    }
+    .tituloTec{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .contenedorTec img{
+        margin-right: 0px;
+        width: 100%;
+    }
+}
+/* publicaciones */
+
+.contenedorPub{
+    width: 100%;
+    max-width: 1250px;
+    margin: auto;
+    padding: 60px;
+    margin-top: 100px;
+}
+.tituloPub{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: 100;
+}
+.sub-tituloPub{
+    font-size: 30px;
+    font-weight: 400;
+}
+.contenedorPub img{
+    width: 50%;
+    float: right;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.contenedorPub p{
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+@media only screen and (min-width: 320px) and (max-width: 768px){
+    .contenedorPub{
+        width: 100%;
+        padding: 21px;
+    }
+    .tituloPub{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .contenedorPub img{
+        margin-right: 0px;
+        width: 100%;
+    }
 }
