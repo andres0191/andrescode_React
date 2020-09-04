@@ -18,9 +18,9 @@ export default function Home(){
                         <img class="me" src={Me} alt="First slide"/>
                             <div className='text'>
                                 <h1>Andres  Garcia </h1>
-                                <p >Web Developer egresado de Holberton School. Con un año de experiencia en desarrollo de software logré dominar la complejidad del lenguaje de programación C, Python, Javascript y pude mejorar mis softskills para el trabajo en equipos multidiciplinarios.
+                                <p >Web Developer graduated from Holberton School. With a year of experience in software development I managed to master the complexity of the programming language C, Python, Javascript and I was able to improve my softskills for working in multidisciplinary teams.
                                     <br/><br/>
-                                Desde el perfil de desarrollador de Back-end y con el apoyo del equipo de partners, persistencia, continuidad y perseverancia, aprendí claramente los Fundamentos de la programación y desarrolle proyectos como la creación de la función Printf, un interprete de comandos Simple Shell, un interpretar de comandos  Monty Shell, Web Scraping con Python y un clon de la plataforma AirBnB. 
+                                From the Back-end developer profile and with the support of the partner team, persistence, continuity and perseverance, I clearly learned the Fundamentals of programming and developed projects such as the creation of the Printf function, a Simple Shell command interpreter, a interpret command Monty Shell, Web Scraping with Python and a clone of the AirBnB platform. 
                                 </p><br/>
                                 <div className='downloadcv' >
                                     <IconContext.Provider value={{ color:"#bcbcbc", className: "global-class-name",  size:'1.5em'}} >
