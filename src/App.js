@@ -4,7 +4,6 @@ import './App.css';
 import Home  from './components/Home/Home';
 import About from './components/About/About';
 import Porjects from './components/Porjects/Projects';
-import Publications from './components/Publications/Publications';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -16,9 +15,6 @@ function App() {
         </Route>
         <Route path='/Projects'>
           <Porjects />
-        </Route>
-        <Route path='/Publications'>
-          <Publications />
         </Route>
         <Route path='/'>
           <Home />
