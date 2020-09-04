@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* Nikola Tesla */
+.contenedor{
+    width: 100%;
+    max-width: 1000px;
+    margin: 3%;
+    padding: 60px;
+    margin-top: 50px;
+}
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: 100;
+}
+.sub-titulo{
+    font-size: 30px;
+    font-weight: 400;
+}
+.contenedor img{
+    width: 30%;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+.contenedor p{
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 70px;
+}
+@media only screen and (min-width: 320px) and (max-width: 768px){
+    .contenedor{
+        width: 100%;
+        padding: 21px;
+    }
+    .titulo{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .contenedor img{
+        margin-right: 0px;
+        width: 100%;
+    }
+}
+
+/* Printf */
+
+.contenedorPrintf{
+    width: 100%;
+    max-width: 1250px;
+    margin: auto;
+    padding: 60px;
+    margin-top: 50px;
+}
+.tituloPrintf{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: 100;
+}
+.sub-tituloPrintf{
+    font-size: 30px;
+    font-weight: 400;
+}
+.contenedorPrintf img{
+    width: 50%;
+    float: right;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.contenedorPrintf p{
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+@media only screen and (min-width: 320px) and (max-width: 768px){
+    .contenedorPrintf{
+        width: 100%;
+        padding: 21px;
+    }
+    .tituloPrintf{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .contenedorPrintf img{
+        margin-right: 0px;
+        width: 100%;
+    }
+}
+
+/* SimpleShell */
+
+.contenedorSimpleShell{
+    width: 100%;
+    max-width: 1250px;
+    margin: auto;
+    padding: 60px;
+    margin-top: 50px;
+}
+.tituloSimpleShell{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: 100;
+}
+.sub-tituloSimpleShell{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 60px;
+}
+.contenedorSimpleShell img{
+    width: 50%;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+.contenedorSimpleShell p{
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+@media only screen and (min-width: 320px) and (max-width: 768px){
+    .contenedorSimpleShell{
+        width: 100%;
+        padding: 21px;
+    }
+    .tituloSimpleShell{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .contenedorSimpleShell img{
+        margin-right: 0px;
+        width: 100%;
+    }
+}
+/* AirBnB */
+
+.contenedorAirBnB{
+    width: 100%;
+    max-width: 1250px;
+    margin: auto;
+    padding: 60px;
+    margin-top: 100px;
+}
+.tituloAirBnB{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: 100;
+}
+.sub-tituloAirBnB{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 10%;
+}
+.contenedorAirBnB img{
+    width: 50%;
+    float: right;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.contenedorAirBnB p{
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+@media only screen and (min-width: 320px) and (max-width: 768px){
+    .contenedorAirBnB{
+        width: 100%;
+        padding: 21px;
+    }
+    .tituloAirBnB{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .contenedorAirBnB img{
+        margin-right: 0px;
+        width: 100%;
+    }
+}
+/* Apadrinapp */
+
+.contenedorApadrinapp{
+    width: 100%;
+    max-width: 1250px;
+    margin: auto;
+    padding: 60px;
+    margin-top: 100px;
+}
+.tituloApadrinapp{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: 100;
+}
+.sub-tituloApadrinapp{
+    font-size: 30px;
+    font-weight: 400;
+}
+.contenedorApadrinapp img{
+    width: 40%;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 10%;
+}
+.contenedorApadrinapp p{
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+@media only screen and (min-width: 320px) and (max-width: 768px){
+    .contenedorApadrinapp{
+        width: 100%;
+        padding: 21px;
+    }
+    .tituloApadrinapp{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .contenedorApadrinapp img{
+        margin-right: 0px;
+        width: 100%;
+    }
+}

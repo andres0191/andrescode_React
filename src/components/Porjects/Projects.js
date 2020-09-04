@@ -6,64 +6,78 @@ import { FaHandPointRight } from "react-icons/fa";
 import { BsMusicPlayer } from 'react-icons/bs';
 import { IconContext } from "react-icons";
 import holamundo from '../../images/holamundo.png';
-import DenzelW from '../../images/Denzel_Washington.jpg';
-import Blogs from '../../images/startup_office_desk-wallpaper-1920x1080.jpg';
+import NikolaTesla from '../../images/nikolaTesla.png';
+import Hbnb from '../../images/hbnb.png';
 import SimpleShell from '../../images/simpleShell.jpeg';
+import Apadrinapp from '../../images/apadrinapp.png'
 
 export default function Projects(){
     return(
         <div >
             <Header />
                     <div>
-                    <div style={{textAlign:'justify', padding:'15px', paddingBottom: '5rem' }}>
-                        <img class="imgAlbertE  firsttext" src={DenzelW} alt="First slide"/>
-                            <div className='text'>
-                                <h1>Denzel Washington</h1>
-                                <p>"Los sueños sin metas, son sólo sueños; y te llevarán a desilusiones. Las metas, son el camino hacia tus sueños; pero no se pueden lograr sin disciplina y consistencia"</p>
-                            </div>
-                    </div>
-                    <div style={{textAlign:'justify', padding:'20px', paddingBottom: '5rem' }} className='textHobbies'>
-                        <img class="imgAndresCammera" src={holamundo} alt="First slide"/>
-                            <div className='textHobbies'>
-                                <h2>Print F</h2>
-                                <p>Creacion de la funcion print f en lenguaje de programacion C. Junto a Crhistian Suarez, utilizamos y creamos nuestras propias funciones como write, malloc, free, va_start, va_end, va_copy y va-_arg durante paroximadamente 7 dias.</p><br />
-                                <div>
-                                    <div className='downloadcv' >
-                                        <IconContext.Provider value={{ color:"#595959", className: "global-class-name",  size:'1.5em'}} >
-                                            <div >
-                                                <p className="playlist"><a href="https://github.com/Thorlak2202/printf" style={{margin: 10}}><FaHandPointRight />    Github Repository</a></p>
-                                            </div>
-                                        </IconContext.Provider>
-                                    </div>
-                                </div><br /><br />
-                            </div>
-                    </div>
-                    <div style={{textAlign:'justify', padding:'15px', paddingBottom: '5rem' }}>
-                        <img class="imgAndresCammera" src={SimpleShell} alt="First slide"/>
-                            <div className='textTecnologies'>
-                        <h2>Simple Shell</h2>
-                        <p>Junto a Giovani Perez, tuvimos al rededor de dos semanas para crear una simple shell que permitirea la interpretacion de comandos y ejecutara diveresas funciones dependiendo de la funcion que se ingresara.</p><br />
+                        <div class='contenedor'>
+                                <img src={NikolaTesla} />
+                                    <p>"No creo que haya alguna emoción más intensa para un inventor que ver alguna de sus creaciones funcionando. Esa emoción hace que uno se olvide de comer, de dormir, de todo"</p> 
+                                    <p>"En realidad no me preocupa que quieran robar mis ideas, me preocupa que ellos no las tengan".</p><br />
                         </div>
-                    </div>
-                    <div style={{textAlign:'justify', padding:'15px', paddingBottom: '5rem' }}>
-                        <img class="imgBlog" src={Blogs} alt="First slide"/>
-                            <div className='textPublications'>
-                                <h2>Publicaciones</h2>
-                                <p>Con el fin de aportar a la comunidad, he realizado algunas publicaciones en Medium y Linkedin.<br />Este sitio web fue desarrollado en React.</p><br />
-                                <h2>Te recomiendo la siguiente:</h2>
-                                    <b>"Artificial Intelligence, Machine Learning, and Deep Learning.</b>
-                                <p>Artificial Inteligenics is the ability of a computer to learn by its own means to solve a specific problem. For example, whenever you pick up the phone at 7 in the morning, you open the FM radio application. Imagine that the cell phone was able to turn on the radio by itself every day at the same time without the need for you to do it?"</p>
-                            </div>
-                            <div className='downloadcv' >
+                        <div class='contenedorPrintf'>
+                                <img src={holamundo} />
+                                <h2 class='sub-tituloPrintf'>
+                                    Print F
+                                </h2>
+                                <p>Como primero proyecto de mediana embergadura, junto a Crhistian Suarez companero de Holberton School, trabajos en equipo para el desarrollo de la creacion de la funcion "PrintF" creando nuestras propias funciones como write, malloc, free, va_start, va_end, va_copy, va_arg. El proyecto fue desarrollado 100% en lenguaje C.</p><br />
+                                <div className='downloadcv' >
                             <IconContext.Provider value={{ color:"#595959", className: "global-class-name",  size:'1.5em'}} >
                                 <div >
-                                    <p className="float-right"> <a href="https://medium.com/@felipe.garcia0191" style={{margin: 10}}><FaHandPointRight />    Ver Mis Publicaciones</a></p>
+                                    <p className="float-right"> <a href="https://github.com/Thorlak2202/printf" style={{margin: 10}}><FaHandPointRight /> Repositorio Github</a></p>
                                 </div>
                             </IconContext.Provider>
                             </div> 
+                                
+                        </div>
+                        <div class='contenedorSimpleShell'>
+                                <img src={SimpleShell} />
+                                <h2 class='sub-tituloSimpleShell'>
+                                    Simple Shell
+                                </h2>
+                                    <p>El proyecto Simple Shell fue desarrollado con Giovani Perez, companero de HOlberton School. Durante 15 dias estuvimos realizando el desarrollo de un interprete de comandos "Simple Shell" en el cual aparte de hacer nuestras propias funciones, logramos crear el ejecutable y poder abrirlo desde cualquier equipo como cualquier otro bash.</p><br />
+                                    <div className='downloadcv' >
+                            <IconContext.Provider value={{ color:"#595959", className: "global-class-name",  size:'1.5em'}} >
+                                <div >
+                                    <p className="float-right"> <a href="https://github.com/Bard-Budist/simple_shell" style={{margin: 10}}><FaHandPointRight /> Repositorio Github</a></p>
+                                </div>
+                            </IconContext.Provider>
+                            </div> 
+                        </div>
+                        <div class='contenedorAirBnB'>
+                                <img src={Hbnb} />
+                                <h2 class='sub-tituloAirBnB'>
+                                    AirBnB Clone
+                                </h2>
+                                <p>Write a command interpreter to manage your AirBnB objects. This is the first step towards building your first full web application: the AirBnB clone. This first step is very important because you will use what you build during this project with all other following projects: HTML/CSS templating, database storage, API, front-end integration.</p>
+                                <div className='downloadcv' >
+                            <IconContext.Provider value={{ color:"#595959", className: "global-class-name",  size:'1.5em'}} >
+                                <div >
+                                    <p className="float-right"> <a href="https://github.com/andres0191/AirBnB_clone" ><FaHandPointRight /> Repositorio Github</a></p>
+                                </div>
+                            </IconContext.Provider>
+                            </div>   
+                        </div><div class='contenedorApadrinapp'>
+                                <img src={Apadrinapp} />
+                                <h2 class='sub-tituloApadrinapp'>
+                                    Apadrinapp
+                                </h2>
+                                <p>Proyecto presentado a RAPPi como proyecto final para Holberton School. Aplicacion de Crowdlending pensada como solucion a las personas que desean trabajar como shoppers pero carecen de los recursos para dar ese primer paso. La aplicacion fue desarrollada en React Native, NodeJS, Redux y Firebase como base de datos.</p>
+                                <div className='downloadcv' >
+                            <IconContext.Provider value={{ color:"#595959", className: "global-class-name",  size:'1.5em'}} >
+                                <div >
+                                    <p className="float-right"> <a href="https://github.com/andres0191/ApadrinappV2" ><FaHandPointRight /> Repositorio Github</a></p>
+                                </div>
+                            </IconContext.Provider>
+                            </div>   
+                        </div>
                     </div>
-                    </div>
-                <hr/>
             <Footer />
         </div>
     )
