@@ -17,16 +17,16 @@ export default function About(){
                     <div>
                         <div class='contenedor'>
                                 <img src={AlbertE} />
-                                    <p>"Mira profundamente en la naturaleza y entonces comprenderas todo mejor"</p> 
-                                    <p>"Si no lo puedes explicar de forma simple, no lo entiendes suficientemente bien".</p><br />
+                                    <p>"Look deeply into nature and then you will understand everything better"</p> 
+                                    <p>"If you can't explain it simply, you don't understand it well enough".</p><br />
                         </div>
                         <div class='contenedorHobbies'>
                                 <img src={AndresCammera} />
                                 <h2 class='sub-tituloHobbies'>
                                     Hobbies
                                 </h2>
-                                <p>Me considero un afisionado del arte. Disftuto de escuchar cualquier genero musical a ecepcion de la champeta y uno que otro subgenero del reggaeton. Amante del Techno House, Classic Music (toco violin cuando necesito relajarme), Reggae y Glam Rock.</p><br />
-                                <p>Les comparto algunos de los canales que mas escucho:</p><br />
+                                <p>I consider myself an art lover. I enjoy listening to any musical genre except champeta and the occasional subgenre of reggaeton. Lover of Techno House, Classic Music (I play violin when I need to relax), Reggae and Glam Rock.</p><br />
+                                <p>LSome of the channels I listen to the most are:</p><br />
 
                                 <div className='downloadcv' >
                                         <IconContext.Provider value={{ color:"#595959", className: "global-class-name",  size:'1.5em'}} >
@@ -50,16 +50,16 @@ export default function About(){
                                         </IconContext.Provider>
                                     </div> 
                                  <p>
-                                    Andres es un afisionado por las artes. Le gusta la gran mayoria de generos musicales, desde la salsa, cumbia y porro hasta el glam rock, pasando por Techno House y musica clasica. Le gusta cultivar plantas medicionales en su balcon y aunque no le gusta lavar los platos, le disfruta de jugar en la cocina preparando platos desde el mas sencillo hasta los mas elaborados.<br/>
-                                    Disfuta desde comer crispetas en un anden hasta una buena cena en un lujoso restaurante siempre en compania de la princesa de su corazon. 
-                                    Como metodos de relajacion disfruta tocar el violin y mirar fijalmente el nado de los peces que tiene en su pecera tratando de tener la mente en blanco.</p>
+                                 Andres is a fan of the arts. He likes the vast majority of musical genres, from salsa, cumbia and porro to glam rock, through Techno House and classical music. He likes to grow medicinal plants on his balcony and although he does not like washing dishes, he enjoys playing in the kitchen preparing dishes from the simplest to the most elaborate.<br/>
+                                 Enjoy from eating popcorn on a platform to a good dinner in a luxurious restaurant always in the company of the princess of your heart. 
+                                 As relaxation methods, he enjoys playing the violin and watching the fish swim in his tank, trying to keep his mind blank.</p>
                         </div>
                         <div class='contenedorTec'>
                                 <img src={Tecnologias} />
                                 <h2 class='sub-tituloTec'>
-                                    Tecnologias
+                                Technology
                                 </h2>
-                                    <p>Durante los 9 meses que estuve en Holberton, adquiri conocimientos en Tecnologias como Python, C, JavaScript y MySQL. Tambien poseo conocimiento en Wordpress y en el ultimo proyecto que trabaje aprendi sobre React, React Native, Redux, NodeJS y Firebase.<br />Este sitio web fue desarrollado en React.</p><br />
+                                    <p>During the 9 months that I was at Holberton, I acquired knowledge in technologies such as Python, C, JavaScript and MySQL. I also have knowledge of Wordpress and in the last project I worked I learned about React, React Native, Redux, NodeJS and Firebase.<br />This website was developed in React.</p><br />
                                     <div className='downloadcv' >
                             <IconContext.Provider value={{ color:"#595959", className: "global-class-name",  size:'1.5em'}} >
                                 <div >
@@ -71,16 +71,16 @@ export default function About(){
                         <div class='contenedorPub'>
                                 <img src={Blogs} />
                                 <h2 class='sub-tituloTPub'>
-                                    Publicaciones
+                                Publications
                                 </h2>
-                                <p>Con el fin de aportar a la comunidad, he realizado algunas publicaciones en Medium y Linkedin.</p><br />
-                                <h2>Te recomiendo la siguiente:</h2>
+                                <p>In order to contribute to the community, I have made some publications on Medium and Linkedin.</p><br />
+                                <h2>TI recommend the following:</h2>
                                     <b>"Artificial Intelligence, Machine Learning, and Deep Learning.</b>
                                 <p>Artificial Inteligenics is the ability of a computer to learn by its own means to solve a specific problem. For example, whenever you pick up the phone at 7 in the morning, you open the FM radio application. Imagine that the cell phone was able to turn on the radio by itself every day at the same time without the need for you to do it?"</p>
                                 <div className='downloadcv' >
                             <IconContext.Provider value={{ color:"#595959", className: "global-class-name",  size:'1.5em'}} >
                                 <div >
-                                    <p className="float-right"> <a href="https://medium.com/@felipe.garcia0191" style={{margin: 100, padding: 100}}><FaHandPointRight />    Ver Mis Publicaciones</a></p>
+                                    <p className="float-right"> <a href="https://medium.com/@felipe.garcia0191" style={{margin: 100, padding: 100}}><FaHandPointRight />    View My Posts</a></p>
                                 </div>
                             </IconContext.Provider>
                             </div>   

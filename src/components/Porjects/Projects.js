@@ -20,19 +20,19 @@ export default function Projects(){
                     <div>
                         <div class='contenedor'>
                                 <img src={NikolaTesla} />
-                                    <p>"No creo que haya alguna emoción más intensa para un inventor que ver alguna de sus creaciones funcionando. Esa emoción hace que uno se olvide de comer, de dormir, de todo"</p> 
-                                    <p>"En realidad no me preocupa que quieran robar mis ideas, me preocupa que ellos no las tengan".</p><br />
+                                    <p>"I don't think there is any more intense emotion for an inventor than to see one of his creations working. That emotion makes one forget to eat, sleep, everything"</p> 
+                                    <p>"I'm not really worried that they want to steal my ideas, I'm worried that they don't have them".</p><br />
                         </div>
                         <div class='contenedorPrintf'>
                                 <img src={holamundo} />
                                 <h2 class='sub-tituloPrintf'>
                                     Print F
                                 </h2>
-                                <p>Como primero proyecto de mediana embergadura, junto a Crhistian Suarez companero de Holberton School, trabajos en equipo para el desarrollo de la creacion de la funcion "PrintF" creando nuestras propias funciones como write, malloc, free, va_start, va_end, va_copy, va_arg. El proyecto fue desarrollado 100% en lenguaje C.</p><br />
+                                <p>As a first medium-sized project, together with Crhistian Suarez, a colleague from Holberton School, teamwork for the development of the creation of the "PrintF" function creating our own functions such as write, malloc, free, va_start, va_end, va_copy, va_arg. The project was developed 100% in C language.</p><br />
                                 <div className='downloadcv' >
                             <IconContext.Provider value={{ color:"#595959", className: "global-class-name",  size:'1.5em'}} >
                                 <div >
-                                    <p className="float-right"> <a href="https://github.com/Thorlak2202/printf" style={{margin: 10}}><FaHandPointRight /> Repositorio Github</a></p>
+                                    <p className="float-right"> <a href="https://github.com/Thorlak2202/printf" style={{margin: 10}}><FaHandPointRight /> Github repository</a></p>
                                 </div>
                             </IconContext.Provider>
                             </div> 
@@ -43,11 +43,11 @@ export default function Projects(){
                                 <h2 class='sub-tituloSimpleShell'>
                                     Simple Shell
                                 </h2>
-                                    <p>El proyecto Simple Shell fue desarrollado con Giovani Perez, companero de HOlberton School. Durante 15 dias estuvimos realizando el desarrollo de un interprete de comandos "Simple Shell" en el cual aparte de hacer nuestras propias funciones, logramos crear el ejecutable y poder abrirlo desde cualquier equipo como cualquier otro bash.</p><br />
+                                    <p>The Simple Shell project was developed with Giovani Perez, a partner at HOlberton School. For 15 days we were developing a "Simple Shell" command interpreter in which apart from doing our own functions, we were able to create the executable and be able to open it from any computer like any other attempt..</p><br />
                                     <div className='downloadcv' >
                                         <IconContext.Provider value={{ color:"#595959", className: "global-class-name",  size:'1.5em'}} >
                                             <div >
-                                                <p className="float-right"> <a href="https://github.com/Bard-Budist/simple_shell" style={{margin: 10}}><FaHandPointRight /> Repositorio Github</a></p>
+                                                <p className="float-right"> <a href="https://github.com/Bard-Budist/simple_shell" style={{margin: 10}}><FaHandPointRight /> Github repository</a></p>
                                             </div>
                                         </IconContext.Provider>
                                     </div> 
@@ -61,7 +61,7 @@ export default function Projects(){
                                 <div className='downloadcv' >
                             <IconContext.Provider value={{ color:"#595959", className: "global-class-name",  size:'1.5em'}} >
                                 <div >
-                                    <p className="float-right"> <a href="https://github.com/andres0191/AirBnB_clone" ><FaHandPointRight /> Repositorio Github</a></p>
+                                    <p className="float-right"> <a href="https://github.com/andres0191/AirBnB_clone" ><FaHandPointRight /> Github repository</a></p>
                                 </div>
                             </IconContext.Provider>
                             </div>   
@@ -70,11 +70,11 @@ export default function Projects(){
                                 <h2 class='sub-tituloApadrinapp'>
                                     Apadrinapp
                                 </h2>
-                                <p>Proyecto presentado a RAPPi como proyecto final para Holberton School. Aplicacion de Crowdlending pensada como solucion a las personas que desean trabajar como shoppers pero carecen de los recursos para dar ese primer paso. La aplicacion fue desarrollada en React Native, NodeJS, Redux y Firebase como base de datos.</p>
+                                <p>Project presented to RAPPi as a final project for Holberton School. Crowdlending application designed as a solution for people who want to work as shoppers but lack the resources to take that first step. The application was developed in React Native, NodeJS, Redux and Firebase as a database.</p>
                                 <div className='downloadcv' >
                                         <IconContext.Provider value={{ color:"#595959", className: "global-class-name",  size:'1.5em'}} >
                                             <div >
-                                                <p className="float-right"> <a href="https://github.com/andres0191/ApadrinappV2" style={{margin: 10}}><FaHandPointRight /> Repositorio Github</a></p>
+                                                <p className="float-right"> <a href="https://github.com/andres0191/ApadrinappV2" style={{margin: 10}}><FaHandPointRight /> Github repository</a></p>
                                             </div>
                                         </IconContext.Provider>
                                     </div> 
@@ -84,11 +84,11 @@ export default function Projects(){
                                 <h2 class='sub-tituloAirBnB'>
                                     Psicoempatias
                                 </h2>
-                                <p>Write a command interpreter to manage your AirBnB objects. This is the first step towards building your first full web application: the AirBnB clone. This first step is very important because you will use what you build during this project with all other following projects: HTML/CSS templating, database storage, API, front-end integration.</p>
+                                <p>As a freelance job, I developed together with Tomas Mejia and Pablo Sanchez a platform for mental health care.<br />"Nos caracterizamos por educar a nuestra comunidad en temas relevantes y usamos herramientas digitales para compartir constantemente información valiosa sobre la Salud Mental; además, somos conscientes de que la empatía es la mejor manera de generar un impacto en el otro".</p>
                                 <div className='downloadcv' >
                             <IconContext.Provider value={{ color:"#595959", className: "global-class-name",  size:'1.5em'}} >
                                 <div >
-                                    <p className="float-right"> <a href="https://github.com/andres0191/AirBnB_clone" ><FaHandPointRight /> Repositorio Github</a></p>
+                                    <p className="float-right"> <a href="https://github.com/andres0191/AirBnB_clone" ><FaHandPointRight /> Psicoempatias.com</a></p>
                                 </div>
                             </IconContext.Provider>
                             </div>
@@ -102,7 +102,7 @@ export default function Projects(){
                                 <div className='downloadcv' >
                             <IconContext.Provider value={{ color:"#595959", className: "global-class-name",  size:'1.5em'}} >
                                 <div >
-                                    <p className="float-right"> <a href="https://github.com/andres0191/andrescode_React" style={{margin: '10%', display: 'flex', width: '100%', padding: '20%',}}><FaHandPointRight /> Repositorio Github</a></p>
+                                    <p className="float-right"> <a href="https://github.com/andres0191/andrescode_React" style={{margin: '10%', display: 'flex', width: '100%', padding: '20%',}}><FaHandPointRight /> Github repository</a></p>
                                 </div>
                             </IconContext.Provider>
                             </div>
