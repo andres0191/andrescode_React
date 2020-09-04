@@ -9,7 +9,9 @@ import holamundo from '../../images/holamundo.png';
 import NikolaTesla from '../../images/nikolaTesla.png';
 import Hbnb from '../../images/hbnb.png';
 import SimpleShell from '../../images/simpleShell.jpeg';
-import Apadrinapp from '../../images/apadrinapp.png'
+import Apadrinapp from '../../images/apadrinapp.png';
+import Psicoempatias from '../../images/psicoempatias2.png';
+import andrescode from '../../images/andrescode.png';
 
 export default function Projects(){
     return(
@@ -43,12 +45,12 @@ export default function Projects(){
                                 </h2>
                                     <p>El proyecto Simple Shell fue desarrollado con Giovani Perez, companero de HOlberton School. Durante 15 dias estuvimos realizando el desarrollo de un interprete de comandos "Simple Shell" en el cual aparte de hacer nuestras propias funciones, logramos crear el ejecutable y poder abrirlo desde cualquier equipo como cualquier otro bash.</p><br />
                                     <div className='downloadcv' >
-                            <IconContext.Provider value={{ color:"#595959", className: "global-class-name",  size:'1.5em'}} >
-                                <div >
-                                    <p className="float-right"> <a href="https://github.com/Bard-Budist/simple_shell" style={{margin: 10}}><FaHandPointRight /> Repositorio Github</a></p>
-                                </div>
-                            </IconContext.Provider>
-                            </div> 
+                                        <IconContext.Provider value={{ color:"#595959", className: "global-class-name",  size:'1.5em'}} >
+                                            <div >
+                                                <p className="float-right"> <a href="https://github.com/Bard-Budist/simple_shell" style={{margin: 10}}><FaHandPointRight /> Repositorio Github</a></p>
+                                            </div>
+                                        </IconContext.Provider>
+                                    </div> 
                         </div>
                         <div class='contenedorAirBnB'>
                                 <img src={Hbnb} />
@@ -70,13 +72,41 @@ export default function Projects(){
                                 </h2>
                                 <p>Proyecto presentado a RAPPi como proyecto final para Holberton School. Aplicacion de Crowdlending pensada como solucion a las personas que desean trabajar como shoppers pero carecen de los recursos para dar ese primer paso. La aplicacion fue desarrollada en React Native, NodeJS, Redux y Firebase como base de datos.</p>
                                 <div className='downloadcv' >
+                                        <IconContext.Provider value={{ color:"#595959", className: "global-class-name",  size:'1.5em'}} >
+                                            <div >
+                                                <p className="float-right"> <a href="https://github.com/andres0191/ApadrinappV2" style={{margin: 10}}><FaHandPointRight /> Repositorio Github</a></p>
+                                            </div>
+                                        </IconContext.Provider>
+                                    </div> 
+                        </div>
+                        <div class='contenedorAirBnB'>
+                                <img src={Psicoempatias} />
+                                <h2 class='sub-tituloAirBnB'>
+                                    Psicoempatias
+                                </h2>
+                                <p>Write a command interpreter to manage your AirBnB objects. This is the first step towards building your first full web application: the AirBnB clone. This first step is very important because you will use what you build during this project with all other following projects: HTML/CSS templating, database storage, API, front-end integration.</p>
+                                <div className='downloadcv' >
                             <IconContext.Provider value={{ color:"#595959", className: "global-class-name",  size:'1.5em'}} >
                                 <div >
-                                    <p className="float-right"> <a href="https://github.com/andres0191/ApadrinappV2" style={{margin: '10%', display: 'flex', width: '100%', padding: '20%',}}><FaHandPointRight /> Repositorio Github</a></p>
+                                    <p className="float-right"> <a href="https://github.com/andres0191/AirBnB_clone" ><FaHandPointRight /> Repositorio Github</a></p>
                                 </div>
                             </IconContext.Provider>
-                            </div>   
-                        </div>
+                            </div>
+                            </div> 
+                            <div class='contenedorAcode'>
+                                <img src={andrescode} />
+                                <h2 class='sub-tituloAcodeB'>
+                                    Andres Code
+                                </h2>
+                                <p>Personal web site created in React</p>
+                                <div className='downloadcv' >
+                            <IconContext.Provider value={{ color:"#595959", className: "global-class-name",  size:'1.5em'}} >
+                                <div >
+                                    <p className="float-right"> <a href="https://github.com/andres0191/andrescode_React" style={{margin: '10%', display: 'flex', width: '100%', padding: '20%',}}><FaHandPointRight /> Repositorio Github</a></p>
+                                </div>
+                            </IconContext.Provider>
+                            </div>
+                            </div>
                     </div>
             <Footer />
         </div>
