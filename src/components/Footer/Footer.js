@@ -7,9 +7,15 @@ export default function Footer(){
     return(
         <div>
             <div className='foot dvfooter'>
-                <li className='space'><NavHome /></li>
-                <li className='space'><NavAbout /></li>
-                <li className='space'><NavProjects /></li>
+                <a href='/'>
+                    <li className='space'><NavHome /></li>
+                </a>
+                <a href='/About'>
+                  <li className='space'><NavAbout /></li>
+                </a>
+                <a href='/Projects'>
+                    <li className='space'><NavProjects /></li>
+                </a>                
             </div>
         </div>
     )
