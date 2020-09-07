@@ -14,7 +14,7 @@ export default function Home(){
                 <div>
                     <div >
                         <img class="fondo" src={Fondo} alt="First slide"/>
-                        <div style={{textAlign:'justify', padding:'15px', paddingBottom: '5rem' }}>
+                        <div style={{textAlign:'justify', padding:'15px', paddingBottom: '5rem', margin: '7%' }}>
                         <img class="me" src={Me} alt="First slide"/>
                             <div className='text'>
                                 <h1>Andres  Garcia </h1>

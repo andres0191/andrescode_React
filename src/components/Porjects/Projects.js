@@ -18,13 +18,13 @@ export default function Projects(){
         <div >
             <Header />
                     <div>
-                        <div class='contenedor'>
+                        {/* <div class='contenedor'>
                                 <img src={NikolaTesla} />
                                     <p>"I don't think there is any more intense emotion for an inventor than to see one of his creations working. That emotion makes one forget to eat, sleep, everything"</p> 
                                     <p>"I'm not really worried that they want to steal my ideas, I'm worried that they don't have them".</p><br />
-                        </div>
+                        </div> */}
                         <div class='contenedorPrintf'>
-                                <img src={holamundo} />
+                                <img src={holamundo} style={{borderRadius: '5%'}}/>
                                 <h2 class='sub-tituloPrintf'>
                                     Print F
                                 </h2>
@@ -38,8 +38,8 @@ export default function Projects(){
                             </div> 
                                 
                         </div>
-                        <div class='contenedorSimpleShell'>
-                                <img src={SimpleShell} />
+                        <div class='contenedorSimpleShell'  style={{borderRadius: '5%'}}>
+                                <img src={SimpleShell}  style={{borderRadius: '5%'}}/>
                                 <h2 class='sub-tituloSimpleShell'>
                                     Simple Shell
                                 </h2>
@@ -53,7 +53,7 @@ export default function Projects(){
                                     </div> 
                         </div>
                         <div class='contenedorAirBnB'>
-                                <img src={Hbnb} />
+                                <img src={Hbnb} style={{borderRadius: '5%'}} />
                                 <h2 class='sub-tituloAirBnB'>
                                     AirBnB Clone
                                 </h2>
@@ -66,7 +66,7 @@ export default function Projects(){
                             </IconContext.Provider>
                             </div>   
                         </div><div class='contenedorApadrinapp'>
-                                <img src={Apadrinapp} />
+                                <img src={Apadrinapp}  style={{borderRadius: '5%'}}/>
                                 <h2 class='sub-tituloApadrinapp'>
                                     Apadrinapp
                                 </h2>
@@ -80,7 +80,7 @@ export default function Projects(){
                                     </div> 
                         </div>
                         <div class='contenedorAirBnB'>
-                                <img src={Psicoempatias} />
+                                <img src={Psicoempatias} style={{borderRadius: '5%'}} />
                                 <h2 class='sub-tituloAirBnB'>
                                     Psicoempatias
                                 </h2>
@@ -94,7 +94,7 @@ export default function Projects(){
                             </div>
                             </div> 
                             <div class='contenedorAcode'>
-                                <img src={andrescode} />
+                                <img src={andrescode}  style={{borderRadius: '5%'}}/>
                                 <h2 class='sub-tituloAcodeB'>
                                     Andres Code
                                 </h2>

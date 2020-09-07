@@ -15,13 +15,13 @@ export default function About(){
         <div >
             <Header />
                     <div>
-                        <div class='contenedor'>
+                        {/* <div class='contenedor'>
                                 <img src={AlbertE} />
                                     <p>"Look deeply into nature and then you will understand everything better"</p> 
                                     <p>"If you can't explain it simply, you don't understand it well enough".</p><br />
-                        </div>
+                        </div> */}
                         <div class='contenedorHobbies'>
-                                <img src={AndresCammera} />
+                                <img src={AndresCammera} style={{borderRadius: '5%'}} />
                                 <h2 class='sub-tituloHobbies'>
                                     Hobbies
                                 </h2>
@@ -55,7 +55,7 @@ export default function About(){
                                  As relaxation methods, he enjoys playing the violin and watching the fish swim in his tank, trying to keep his mind blank.</p>
                         </div>
                         <div class='contenedorTec'>
-                                <img src={Tecnologias} />
+                                <img src={Tecnologias} style={{borderRadius: '5%'}} />
                                 <h2 class='sub-tituloTec'>
                                 Technology
                                 </h2>
@@ -69,7 +69,7 @@ export default function About(){
                             </div> 
                         </div>
                         <div class='contenedorPub'>
-                                <img src={Blogs} />
+                                <img src={Blogs} style={{borderRadius: '5%'}} />
                                 <h2 class='sub-tituloTPub'>
                                 Publications
                                 </h2>
