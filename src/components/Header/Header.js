@@ -6,6 +6,7 @@ import Linkedin from './Linkedin/Linkedin';
 import Medium from './Medium/Medium';
 import Torre from './Torre/Torre';
 import Twitter from './Twitter/Twitter';
+import Email from './Mail/Email';
 
 
 export default function Header(){
@@ -18,6 +19,7 @@ export default function Header(){
                 <a href="https://medium.com/@felipe.garcia0191"><li className='space'><Medium /></li></a>
                 <a href="https://bio.torre.co/andresfelipegarciarendon"><li className='space'><Torre /></li></a>
                 <a href="https://twitter.com/andres0191"><li className='space'><Twitter /></li></a>
+                <a href='mailto:felipe.garcia0191@gmail.com'><li className='space'><Email /></li></a>
             </div>
         </div>
     )
