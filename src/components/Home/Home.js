@@ -25,7 +25,7 @@ export default function Home(){
                                 <div className='downloadcv' >
                                     <IconContext.Provider value={{ color:"#bcbcbc", className: "global-class-name",  size:'1.5em'}} >
                                         <div className=' d-flex justify-content-center mt-3' >
-                                            <p className="float-right">Download CV<a href="https://drive.google.com/file/d/1j7z_Tw5_Wy0Sv0FD8OXqiSuDqWt5L6PE/view?usp=sharing" style={{margin: 10}}><GrDocumentPdf /></a></p>
+                                            <p className="float-right">Download CV<a href="https://drive.google.com/file/d/1j7z_Tw5_Wy0Sv0FD8OXqiSuDqWt5L6PE/view?usp=sharing" style={{margin: 10}} target="_blank"><GrDocumentPdf /></a></p>
                                         </div>
                                     </IconContext.Provider>
                                 </div>  

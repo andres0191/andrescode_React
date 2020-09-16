@@ -7,20 +7,25 @@ import Medium from './Medium/Medium';
 import Torre from './Torre/Torre';
 import Twitter from './Twitter/Twitter';
 import Email from './Mail/Email';
+import { BrowserRouter as Router, Link} from "react-router-dom";
 
 
 export default function Header(){
     return(
-        <div>
-            <div className='header dv '>
-                <a href='https://github.com/andres0191'><li className='space'><Github /></li></a>
-                <a href="https://dev.to/andres0191"><li className='space'><Dev /></li></a>
-                <a href="https://linkedin.com/in/anfegar/"><li className='space'><Linkedin /></li></a>
-                <a href="https://medium.com/@felipe.garcia0191"><li className='space'><Medium /></li></a>
-                <a href="https://bio.torre.co/andresfelipegarciarendon"><li className='space'><Torre /></li></a>
-                <a href="https://twitter.com/andres0191"><li className='space'><Twitter /></li></a>
-                <a href='mailto:felipe.garcia0191@gmail.com'><li className='space'><Email /></li></a>
+        <Router>
+            <div>
+                <div className='header dv '>
+                    <Link to='https://github.com/andres0191'></Link><li className='space'><Github /></li>
+                    <Link to="https://dev.to/andres0191"></Link>
+                    <li className='space'><Dev /></li>
+                    <Link to="https://linkedin.com/in/anfegar/"></Link>
+                    <li className='space'><Linkedin /></li>
+                    <Link to="https://medium.com/@felipe.garcia0191"></Link><li className='space'><Medium /></li>
+                    <Link to="https://bio.torre.co/andresfelipegarciarendon"></Link><li className='space'><Torre /></li>
+                    <Link to="https://twitter.com/andres0191"></Link><li className='space'><Twitter /></li>
+                    <Link to='mailto:felipe.garcia0191@gmail.com'></Link><li className='space'><Email /></li>
+                </div>
             </div>
-        </div>
+        </Router>
     )
 }

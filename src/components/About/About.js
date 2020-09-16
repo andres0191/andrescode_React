@@ -31,21 +31,21 @@ export default function About(){
                                 <div className='downloadcv' >
                                         <IconContext.Provider value={{ color:"#595959", className: "global-class-name",  size:'1.5em'}} >
                                             <div >
-                                                <p className="playlist"><a href="https://www.youtube.com/watch?v=3VnhqGLBwDo" style={{margin: 10}}><BsMusicPlayer />    Techno HOuse</a></p>
+                                                <p className="playlist"><a href="https://www.youtube.com/watch?v=3VnhqGLBwDo" style={{margin: 10}}  target="_blank"><BsMusicPlayer />    Techno HOuse</a></p>
                                             </div>
                                         </IconContext.Provider>
                                     </div>
                                     <div className='downloadcv' >
                                         <IconContext.Provider value={{ color:"#595959", className: "global-class-name",  size:'1.5em'}} >
                                             <div >
-                                                <p className="playlist"><a href="https://www.youtube.com/watch?v=2gO1v2GPMFk" style={{margin: 10}}><BsMusicPlayer />    Classic Music</a></p>
+                                                <p className="playlist"><a href="https://www.youtube.com/watch?v=2gO1v2GPMFk" style={{margin: 10}} target="_blank"><BsMusicPlayer />    Classic Music</a></p>
                                             </div>
                                         </IconContext.Provider>
                                     </div>
                                     <div className='downloadcv' >
                                         <IconContext.Provider value={{ color:"#595959", className: "global-class-name",  size:'1.5em'}} >
                                             <div >
-                                                <p className="playlist"><a href="https://www.youtube.com/watch?v=tb0B3auGbtA" style={{margin: 10}}><BsMusicPlayer />    Vintage Radio Rock</a></p>
+                                                <p className="playlist"><a href="https://www.youtube.com/watch?v=tb0B3auGbtA" style={{margin: 10}} target="_blank"><BsMusicPlayer />    Vintage Radio Rock</a></p>
                                             </div>
                                         </IconContext.Provider>
                                     </div> 
@@ -63,7 +63,7 @@ export default function About(){
                                     <div className='downloadcv' >
                             <IconContext.Provider value={{ color:"#595959", className: "global-class-name",  size:'1.5em'}} >
                                 <div >
-                                    <p className="float-right"> <a href="https://github.com/andres0191" style={{margin: 10}}><FaHandPointRight /> Github</a></p>
+                                    <p className="float-right"> <a href="https://github.com/andres0191" style={{margin: 10}} target="_blank"><FaHandPointRight /> Github</a></p>
                                 </div>
                             </IconContext.Provider>
                             </div> 
@@ -80,7 +80,7 @@ export default function About(){
                                 <div className='downloadcv' >
                             <IconContext.Provider value={{ color:"#595959", className: "global-class-name",  size:'1.5em'}} >
                                 <div >
-                                    <p className="float-right"> <a href="https://medium.com/@felipe.garcia0191" style={{margin: 100, padding: 100}}><FaHandPointRight />    View My Posts</a></p>
+                                    <p className="float-right"> <a href="https://medium.com/@felipe.garcia0191" style={{margin: 100, padding: 100}} target="_blank"><FaHandPointRight />    View My Posts</a></p>
                                 </div>
                             </IconContext.Provider>
                             </div>   

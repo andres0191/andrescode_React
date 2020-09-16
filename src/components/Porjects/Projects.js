@@ -32,7 +32,7 @@ export default function Projects(){
                                 <div className='downloadcv' >
                             <IconContext.Provider value={{ color:"#595959", className: "global-class-name",  size:'1.5em'}} >
                                 <div >
-                                    <p className="float-right"> <a href="https://github.com/Thorlak2202/printf" style={{margin: 10}}><FaHandPointRight /> Github repository</a></p>
+                                    <p className="float-right"> <a href="https://github.com/Thorlak2202/printf" style={{margin: 10}} target="_blank"><FaHandPointRight /> Github repository</a></p>
                                 </div>
                             </IconContext.Provider>
                             </div> 
@@ -47,7 +47,7 @@ export default function Projects(){
                                     <div className='downloadcv' >
                                         <IconContext.Provider value={{ color:"#595959", className: "global-class-name",  size:'1.5em'}} >
                                             <div >
-                                                <p className="float-right"> <a href="https://github.com/Bard-Budist/simple_shell" style={{margin: 10}}><FaHandPointRight /> Github repository</a></p>
+                                                <p className="float-right"> <a href="https://github.com/Bard-Budist/simple_shell" style={{margin: 10}} target="_blank"><FaHandPointRight /> Github repository</a></p>
                                             </div>
                                         </IconContext.Provider>
                                     </div> 
@@ -61,7 +61,7 @@ export default function Projects(){
                                 <div className='downloadcv' >
                             <IconContext.Provider value={{ color:"#595959", className: "global-class-name",  size:'1.5em'}} >
                                 <div >
-                                    <p className="float-right"> <a href="https://github.com/andres0191/AirBnB_clone" ><FaHandPointRight /> Github repository</a></p>
+                                    <p className="float-right"> <a href="https://github.com/andres0191/AirBnB_clone" target="_blank"><FaHandPointRight /> Github repository</a></p>
                                 </div>
                             </IconContext.Provider>
                             </div>   
@@ -74,7 +74,7 @@ export default function Projects(){
                                 <div className='downloadcv' >
                                         <IconContext.Provider value={{ color:"#595959", className: "global-class-name",  size:'1.5em'}} >
                                             <div >
-                                                <p className="float-right"> <a href="https://github.com/andres0191/ApadrinappV2" style={{margin: 10}}><FaHandPointRight /> Github repository</a></p>
+                                                <p className="float-right"> <a href="https://github.com/andres0191/ApadrinappV2" style={{margin: 10}}  target="_blank"><FaHandPointRight /> Github repository</a></p>
                                             </div>
                                         </IconContext.Provider>
                                     </div> 
@@ -88,7 +88,7 @@ export default function Projects(){
                                 <div className='downloadcv' >
                             <IconContext.Provider value={{ color:"#595959", className: "global-class-name",  size:'1.5em'}} >
                                 <div >
-                                    <p className="float-right"> <a href="https://github.com/andres0191/AirBnB_clone" ><FaHandPointRight /> Psicoempatias.com</a></p>
+                                    <p className="float-right"> <a href="https://psicoempatias.com"  target="_blank"><FaHandPointRight /> Psicoempatias.com</a></p>
                                 </div>
                             </IconContext.Provider>
                             </div>
@@ -102,7 +102,7 @@ export default function Projects(){
                                 <div className='downloadcv' >
                             <IconContext.Provider value={{ color:"#595959", className: "global-class-name",  size:'1.5em'}} >
                                 <div >
-                                    <p className="float-right"> <a href="https://github.com/andres0191/andrescode_React" style={{margin: '10%', display: 'flex', width: '100%', padding: '20%',}}><FaHandPointRight /> Github repository</a></p>
+                                    <p className="float-right"> <a href="https://github.com/andres0191/andrescode_React" style={{margin: '10%', display: 'flex', width: '100%', padding: '20%',}}  target="_blank"><FaHandPointRight /> Github repository</a></p>
                                 </div>
                             </IconContext.Provider>
                             </div>

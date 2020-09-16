@@ -8,7 +8,7 @@ export default function Dev(){
         <div className='d-flex align-items-center' >
             <IconContext.Provider value={{ color:"#bcbcbc", className: "global-class-name",  size:'1.5em'}} >
                 <div >
-                    <p className="float-right iconcenter"><a href="https://dev.to/andres0191" style={{margin: 10}}><SiDevDotTo /></a></p>
+                    <p className="float-right iconcenter"><a href="https://dev.to/andres0191" style={{margin: 10}} target='_blank' ><SiDevDotTo /></a></p>
                 </div>
             </IconContext.Provider>
         </div>
