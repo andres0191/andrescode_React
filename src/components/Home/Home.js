@@ -18,9 +18,9 @@ export default function Home(){
                         <img class="me" src={Me} alt="First slide"/>
                             <div className='text'>
                                 <h1>Andres  Garcia </h1>
-                                <p >Web Developer graduated from Holberton School. With a year of experience in software development developing projects in programming languages ​​such as C, Python, Javascript and I was able to improve my softskills to work in multidisciplinary teams.
+                                <p >Web Developer graduated from Holberton School. With a year of experience in software development working in  projects with programming languages such as C, Python, JavaScript with React Native working in multidisciplinary teams.
                                 <br/><br/>
-                                From the web developer profile and with persistence, continuity and perseverance, I clearly learned the Fundamentals of programming and developed projects such as the creation of the Printf function, a simple Shell command interpreter, Web Scraping with Python and a clone of the platform AirBnB. In my last project and thanks to the skills I have to work as a Frontend, I learned web development with React and mobile application development with React Native, Redux, Firebase and NodeJs.
+                               Developed technical projects such as the creation of the Printf function, a simple Shell command interpreter, Web Scraping with Python and a clone of the platform Airbnb with a Holberton recognition as one of the best projects made in Medellin's cohort. His last project included Frontend responsibilities for Web components with React and mobile application development with React Native, Redux, Firebase and NodeJS.
                                 </p><br/>
                                 <div className='downloadcv' >
                                     <IconContext.Provider value={{ color:"#bcbcbc", className: "global-class-name",  size:'1.5em'}} >
